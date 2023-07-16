@@ -1,11 +1,11 @@
-import { Button } from 'bootstrap';
-import './App.scss';
-import Header from './components/Header';
+import { Button } from "bootstrap";
+import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div>
-    <Header />
+      <Header />
     </div>
   );
 }
