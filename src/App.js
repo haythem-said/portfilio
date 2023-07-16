@@ -1,10 +1,11 @@
-import { Button } from "bootstrap";
 import "./App.css";
 import Header from "./components/header/Header";
+import Navbar from "./components/navbar/NavBar";
 
 function App() {
   return (
-    <div>
+    <div className="gradient__bg">
+      <Navbar />
       <Header />
     </div>
   );
